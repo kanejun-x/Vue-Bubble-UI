@@ -53,7 +53,10 @@
   "description": "A highly configurable Bubble UI React.js component, similar to the iconic Apple Watch app layout.",
   "author": "Jun Kaneda",
   "license": "MIT",
-  "repository": "kanejun-x/Vue-Bubble-UI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanejun-x/Vue-Bubble-UI.git"
+  },
   "keywords": [
     "vue",
     "component",
