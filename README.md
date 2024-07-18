@@ -45,7 +45,7 @@ import { BubbleUi, type BubbleUiProps } from 'vue-bubble-ui'
 
 <template>
   <div :style="{ width: '100vw', height: '100vh' }">
-    <bubble-ui :items="companies" :options="options">
+    <bubble-ui :items="data" :options="options">
       <template #item="{ item, bubble }"> write your bubble code here </template>
     </bubble-ui>
   </div>
