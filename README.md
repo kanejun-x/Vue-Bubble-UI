@@ -14,7 +14,7 @@ Originally known as [React-Bubble-UI](https://github.com/blakesanie/React-Bubble
 Using npm:
 
 ```bash
-yarn add vue-bubble-ui
+npm add vue-bubble-ui
 ```
 
 Using yarn:
