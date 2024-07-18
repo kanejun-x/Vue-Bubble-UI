@@ -1,5 +1,10 @@
 {
   "release-type": "node",
   "package-name": "vue-bubble-ui",
-  "changelog-path": "CHANGELOG.md"
+  "changelog-path": "CHANGELOG.md",
+  "packages": {
+    ".": {
+      "release-type": "node"
+    }
+  }
 }
