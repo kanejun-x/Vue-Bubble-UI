@@ -65,5 +65,8 @@
     "apple",
     "iOS",
     "parallax"
-  ]
+  ],
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.18.1"
+  }
 }
