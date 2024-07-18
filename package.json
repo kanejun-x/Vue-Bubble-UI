@@ -3,16 +3,16 @@
   "version": "0.0.0",
   "private": false,
   "type": "module",
-  "main": "./dist/vue-bubble-ui.umd.js",
-  "module": "./dist/vue-bubble-ui.js",
-  "source": "src/lib/main.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.js",
+  "source": "src/lib/index.ts",
   "files": [
     "/dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/vue-bubble-ui.js",
-      "require": "./dist/vue-bubble-ui.umd.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "engines": {

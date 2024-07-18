@@ -3,14 +3,16 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
+
 // https://vitejs.dev/config/
 export default defineConfig({
   publicDir: false,
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/lib/main.ts'),
-      name: 'VueBubbleUi',
-      fileName: 'vue-bubble-ui'
+      entry: resolve(__dirname, 'src/lib/index.ts'),
+      name: 'vue-bubble-ui',
+      fileName: 'index',
+      formats: ['es', 'umd']
     },
     rollupOptions: {
       external: ['vue'],
