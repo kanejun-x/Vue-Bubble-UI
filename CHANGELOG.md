@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kanejun-x/Vue-Bubble-UI/compare/vue-bubble-ui-v1.0.0...vue-bubble-ui-v1.0.1) (2024-07-18)
+
+
+### Bug Fixes
+
+* package description ([#12](https://github.com/kanejun-x/Vue-Bubble-UI/issues/12)) ([a14e9c9](https://github.com/kanejun-x/Vue-Bubble-UI/commit/a14e9c9feed53cc56f3a970c850eee6874261a21))
+
 ## 1.0.0 (2024-07-18)
 
 
