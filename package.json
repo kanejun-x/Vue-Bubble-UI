@@ -50,7 +50,7 @@
     "vite-plugin-dts": "^4.0.0-beta.0",
     "vue-tsc": "^2.0.21"
   },
-  "description": "A highly configurable Bubble UI React.js component, similar to the iconic Apple Watch app layout.",
+  "description": "A highly configurable Bubble UI Vue.js component, similar to the iconic Apple Watch app layout.",
   "author": "Jun Kaneda",
   "license": "MIT",
   "repository": {
