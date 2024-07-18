@@ -76,6 +76,8 @@ I highly encourage you to help improve this package further through the followin
 4. Push to your (personal) origin repository
 5. Create a Pull Request
 
+This package assumes you are using [Conventional Commit messages](https://www.conventionalcommits.org/en/v1.0.0/).
+
 ## Author
 
 This package was re-created for Vue.js by [Jun Kaneda](https://github.com/kanejun-x) in 2024.
