@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/kanejun-x/Vue-Bubble-UI/compare/vue-bubble-ui-v1.0.1...vue-bubble-ui-v1.0.2) (2024-07-19)
+
+
+### Bug Fixes
+
+* paddings ([#16](https://github.com/kanejun-x/Vue-Bubble-UI/issues/16)) ([865fcf6](https://github.com/kanejun-x/Vue-Bubble-UI/commit/865fcf6692eda3b3bfd68aa22b3e2c6f7596e20b))
+
 ## [1.0.1](https://github.com/kanejun-x/Vue-Bubble-UI/compare/vue-bubble-ui-v1.0.0...vue-bubble-ui-v1.0.1) (2024-07-18)
 
 
