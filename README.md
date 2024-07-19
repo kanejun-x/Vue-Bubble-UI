@@ -11,6 +11,8 @@ A highly configurable Bubble UI Vue.js component, similar to the iconic Apple Wa
 
 Originally known as [React-Bubble-UI](https://github.com/blakesanie/React-Bubble-UI), this package is re-created for Vue.js.
 
+<img src="https://github.com/blakesanie/React-Bubble-UI/raw/main/example/public/demo.gif" style="border-radius: 30px"/>
+
 ## Prerequisites
 
 - node >=18
