@@ -47,16 +47,22 @@ const activeOptions = ref<Required<BubbleUiProps>>({
 })
 const minProportion = computed(() => activeOptions.value.minSize / activeOptions.value.size)
 
-const verticalPadding = `calc(50% - ${
-  activeOptions.value.yRadius +
-  activeOptions.value.size / 2 -
-  (activeOptions.value.cornerRadius * (1.414 - 1)) / 1.414
-}px)`
-const horizontalPadding = `calc(50% - ${
-  activeOptions.value.xRadius +
-  activeOptions.value.size / 2 -
-  (activeOptions.value.cornerRadius * (1.414 - 1)) / 1.414
-}px)`
+const verticalPadding = computed(
+  () =>
+    `calc(50% - ${
+      activeOptions.value.yRadius +
+      activeOptions.value.size / 2 -
+      (activeOptions.value.cornerRadius * (1.414 - 1)) / 1.414
+    }px)`
+)
+const horizontalPadding = computed(
+  () =>
+    `calc(50% - ${
+      activeOptions.value.xRadius +
+      activeOptions.value.size / 2 -
+      (activeOptions.value.cornerRadius * (1.414 - 1)) / 1.414
+    }px)`
+)
 
 const rows = computed(() => {
   const rowsData: (T | null)[][] = []
