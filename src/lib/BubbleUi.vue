@@ -89,10 +89,11 @@ const scrollable = ref<HTMLElement>()
 const scrollTop = ref(0)
 const scrollLeft = ref(0)
 
-const handleScroll = (e: any) => {
-  if (e.target) {
-    scrollTop.value = e.target.scrollTop
-    scrollLeft.value = e.target.scrollLeft
+const handleScroll = (e: Event) => {
+  const target = e.target as HTMLElement
+  if (target) {
+    scrollTop.value = target.scrollTop
+    scrollLeft.value = target.scrollLeft
   }
 }
 onMounted(() => {
