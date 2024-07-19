@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/kanejun-x/Vue-Bubble-UI/compare/vue-bubble-ui-v1.0.2...vue-bubble-ui-v1.0.3) (2024-07-19)
+
+
+### Bug Fixes
+
+* ts event type ([#20](https://github.com/kanejun-x/Vue-Bubble-UI/issues/20)) ([31c31fc](https://github.com/kanejun-x/Vue-Bubble-UI/commit/31c31fc630999196735acee08ab424994b27a698))
+
 ## [1.0.2](https://github.com/kanejun-x/Vue-Bubble-UI/compare/vue-bubble-ui-v1.0.1...vue-bubble-ui-v1.0.2) (2024-07-19)
 
 
