@@ -51,7 +51,7 @@
     "vue-tsc": "^2.0.21"
   },
   "description": "A highly configurable Bubble UI Vue.js component, similar to the iconic Apple Watch app layout.",
-  "author": "Jun Kaneda",
+  "author": "Junichi Kaneda",
   "license": "MIT",
   "repository": {
     "type": "git",
